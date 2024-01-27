@@ -186,3 +186,72 @@ Hoy hemos aprendido un montón sobre Business Analytics:
 ---
 
 **DÍA 3: MACHINE LEARNING**
+
+En esta fase de Machine Learning vamos a construir un sistema automatizado que sea capaz de **analizar toda la información sobre nuestros empleados y generar para cada uno, una predicción personalizada por el riesgo de fuga** que tiene cada uno de esos empleados.
+
+**¿Qué vamos a realizar en esta fase de Machine Learning?**
+
+- Preparación de los datos para la modelización
+- Diseño de la modelización
+- Entrenamiento del modelo sobre **Train**
+- Predicción y validación sobre **Test**
+- Interpretación
+- Explotación
+- Guardar el resultado para producción
+
+---
+
+**Sentando las bases de Machine Learning**
+
+Vamos a utilizar **todo el histórico de datos** que tenemos, el objetivo es crear un modelo para después ponerlo en producción y después nos sirva para predecir el futuro, lo cual es el riesgo de abandono de cada uno de los empleados. 
+
+**¿Cómo lo vamos a hacer?** Vamos a utilizar el total de la información. Utilizamos primero un 70% **(Train)** y 30% **(Test)**. Entrenamos el modelo sobre el 70% de los datos de Train y luego lo validamos sobre el 30% de los datos de Test. 
+
+👉 Sí los datos de Test salen buenos o parecidos a los de entrenamiento en cuanto a métricas de evaluación podemos hacer despliegue del modelo en algún tipo de sistema.
+
+<aside>
+🚨 En Machine Learning, al trabajar con conjuntos de datos, es común dividirlos en dos grupos principales: **el grupo de entrenamiento (train) y el grupo de prueba (test).** Estos grupos son esenciales para evaluar el rendimiento de un modelo y garantizar su capacidad de generalización a datos no vistos.
+
+</aside>
+
+---
+
+**DÍA 4: VISUALIZACIÓN Y COMUNICACIÓN**
+
+Esta fase se llama puesta en producción o deployment.
+
+En nuestro caso vamos a crear un dashboard en **Tableau** que cubra los
+requerimientos que nos ha pedido el director:
+
+- Tasa de fuga
+- # empleados en riesgo
+- Impacto económico
+- Riesgo por puesto
+- Listado empleados con mayor riesgo
+- Vista total de la empresa
+- Vistas por departamento
+
+Existen 4 grandes maneras de generar un producto de datos:
+
+![Untitled](DS4B_images/Untitled%2010.png)
+
+---
+
+![Vista previa del Dashboard del proyecto DS4B](DS4B_images/Untitled%2011.png)
+
+Vista previa del Dashboard del proyecto DS4B
+
+---
+
+**¿Qué es Tableau y por qué usarla?**
+
+Tableau es una herramienta, actualmente de Salesforce, dirigida a crear visualizaciones de datos y cuadros de mando que permitan entender de forma visual los insights contenidos en los datos.
+
+![Untitled](DS4B_images/Untitled%2012.png)
+
+Tableau es una de las herramientas más demandadas en puestos de Data Scientist y Data analyst y debe ser un complemento a nuestra formación de Data Science.
+
+<aside>
+🚨 **Dashboard realizado en Tableau → [enlace-del-tableau](https://public.tableau.com/views/DashboardFugadeEmpleados_17062391611910/Dashboard1?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link)**
+
+</aside>
