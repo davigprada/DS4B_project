@@ -224,7 +224,7 @@ En nuestro caso vamos a crear un dashboard en **Tableau** que cubra los
 requerimientos que nos ha pedido el director:
 
 - Tasa de fuga
-- # empleados en riesgo
+- Número de empleados en riesgo
 - Impacto económico
 - Riesgo por puesto
 - Listado empleados con mayor riesgo
@@ -237,12 +237,6 @@ Existen 4 grandes maneras de generar un producto de datos:
 
 ---
 
-![Vista previa del Dashboard del proyecto DS4B](DS4B_images/Untitled%2011.png)
-
-Vista previa del Dashboard del proyecto DS4B
-
----
-
 **¿Qué es Tableau y por qué usarla?**
 
 Tableau es una herramienta, actualmente de Salesforce, dirigida a crear visualizaciones de datos y cuadros de mando que permitan entender de forma visual los insights contenidos en los datos.
@@ -252,6 +246,13 @@ Tableau es una herramienta, actualmente de Salesforce, dirigida a crear visualiz
 Tableau es una de las herramientas más demandadas en puestos de Data Scientist y Data analyst y debe ser un complemento a nuestra formación de Data Science.
 
 <aside>
-🚨 **Dashboard realizado en Tableau → [enlace-del-tableau](https://public.tableau.com/views/DashboardFugadeEmpleados_17062391611910/Dashboard1?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link)**
+🚨 Enlace público del Dashboard realizado en Tableau👇
+https://public.tableau.com/views/DashboardFugadeEmpleados_17062391611910/Dashboard1?:language=es-ES&publish=yes&:display_count=n&:origin=viz_share_link
 
 </aside>
+
+---
+
+![Vista previa del Dashboard del proyecto DS4B](DS4B_images/Untitled%2011.png)
+
+Vista previa del Dashboard del proyecto DS4B
